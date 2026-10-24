@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hypervisor-intel", "hypervisor\hypervisor.vcxproj", "{F68BB0B1-6191-8069-DDAB-055D10F0E024}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{18923582-7B65-4F45-9A05-6403165821CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Debug|ARM64.Build.0 = Debug|ARM64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Debug|x64.ActiveCfg = Debug|x64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Debug|x64.Build.0 = Debug|x64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Debug|x64.Deploy.0 = Debug|x64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Release|ARM64.ActiveCfg = Release|ARM64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Release|ARM64.Build.0 = Release|ARM64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Release|ARM64.Deploy.0 = Release|ARM64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Release|x64.ActiveCfg = Release|x64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Release|x64.Build.0 = Release|x64
+		{F68BB0B1-6191-8069-DDAB-055D10F0E024}.Release|x64.Deploy.0 = Release|x64
+		{18923582-7B65-4F45-9A05-6403165821CD}.Debug|ARM64.ActiveCfg = Debug|x64
+		{18923582-7B65-4F45-9A05-6403165821CD}.Debug|ARM64.Build.0 = Debug|x64
+		{18923582-7B65-4F45-9A05-6403165821CD}.Debug|x64.ActiveCfg = Debug|x64
+		{18923582-7B65-4F45-9A05-6403165821CD}.Debug|x64.Build.0 = Debug|x64
+		{18923582-7B65-4F45-9A05-6403165821CD}.Release|ARM64.ActiveCfg = Release|x64
+		{18923582-7B65-4F45-9A05-6403165821CD}.Release|ARM64.Build.0 = Release|x64
+		{18923582-7B65-4F45-9A05-6403165821CD}.Release|x64.ActiveCfg = Release|x64
+		{18923582-7B65-4F45-9A05-6403165821CD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7B75853-255F-4DD7-9161-2A3CCBC66351}
+	EndGlobalSection
+EndGlobal
